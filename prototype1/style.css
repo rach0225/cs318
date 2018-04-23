@@ -1,0 +1,102 @@
+* {
+    font-family: 'ABeeZee', sans-serif;
+}
+h1 {
+    font-family: 'Pacifico', cursive;
+    font-size: 60px;
+    margin-left: 100px;
+}
+
+.topnav {
+    background-color: white;
+    position: absolute;
+    top: 95px;
+    right: 100px;
+    bottom: 50px;
+}
+
+.topnav a {
+    color: rgb(87, 81, 72);
+    text-align: center;
+    padding: 30px 60px;
+    text-decoration: none;
+    font-size: 15px;
+}
+
+.topnav a:hover {
+    color: rgb(163, 153, 138);
+    cursor: pointer;
+}
+
+#panel{
+    position: absolute;
+    left: 25%;
+}
+
+#picture{ 
+    height: 100%;
+    width: 100%;
+    object-fit: contain;
+}
+
+.arrow{ 
+    position: absolute;
+    top: 50%;
+    cursor: pointer;
+}
+
+#left{
+    left:100px;
+    float: left;
+}
+
+#right{
+    right:100px;
+    float: right;
+}
+
+.squares {
+    top: 910px;
+    height: 3in;
+    width: 3in;
+    font-family: 'Pacifico', cursive;
+    color: white;
+    font-size: 40px;
+    padding-top: 115px;
+    background-repeat: no-repeat;
+    background-size: 100%;
+    text-align: center;
+}
+
+#square1 {
+    left: 200px;
+    position: absolute;
+    background-image: url(weddingsclick.jpg);
+}
+
+#square2 {
+    left: 600px;
+    position: absolute;
+    background-image: url(couplesclick.jpg);
+}
+
+#square3 {
+    left: 1000px;
+    position: absolute;
+    background-image: url(seniorsclick.jpg);
+}
+
+#square4 {
+    left: 1400px;
+    position: absolute;
+    background-image: url(groupsclick.jpg);
+}
+
+#headerpic {
+    position: absolute;
+    left: 25%;
+    font-family: 'Pacifico', cursive;
+    font-size: 60px;
+    margin-left: 100px;
+}
+
