@@ -94,9 +94,17 @@ h1 {
 
 #headerpic {
     position: absolute;
-    left: 25%;
+    height: 5in;
+    width: 18in;
+    top: 180px;
+    color: white;
+    background-repeat: no-repeat;
+    background-size: 100%;
+    text-align: center;
     font-family: 'Pacifico', cursive;
     font-size: 60px;
     margin-left: 100px;
+    background-image: url(wedding6.jpg);
+    padding-top: 250px;
 }
 
