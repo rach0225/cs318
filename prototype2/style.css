@@ -72,14 +72,14 @@ main {
 }
 
 #arrange {
-    margin-left: 10%;
-    margin-right: 10%;
+    margin-left: 5%;
+    margin-right: 5%;
     clear: both;
     display: flex;
     box-align: center;
     box-pack: center;
     flex: 1;
-    flex-wrap: nowrap;
+    flex-wrap: wrap;
     flex-direction: row;
     justify-content: space-around;
     padding-top: 2%;
@@ -93,6 +93,7 @@ main {
 }
 
 #about {
+    clear:both;
     display: flex;
     flex: 1;
     flex-wrap: nowrap;
@@ -169,7 +170,7 @@ footer h3 {
 }
 
 #couples {
-    background-image: url(couplehc.png);
+    background-image: url(couplehc.PNG);
 }
 
 #seniors {
@@ -225,6 +226,7 @@ h4 {
 
 @media(max-width: 620px) {
     h1 {
+        clear: both;
         font-size: 20px;
         float: none;
         text-align: center;
@@ -237,36 +239,44 @@ h4 {
     }
     h4 {
         font-size: 20px;
+        text-align: left;
     }
     p {
         font-size:10px;
         margin: 1%;
     }
+    .topnav {
+    display: flex;
+    clear: both;
+    flex-wrap: nowrap;
+    flex-direction: row;
+    justify-content: space-around;
+    background-color: white;
+    align-items: center;
+    margin-top: 2%;
+    background-color: white;
+    margin: 0;
+    padding: 1%;
+    }
+ 
     li {
         font-size: 10px;
     }
-    .topnav {
-        clear: both;
-    }
+
     .topnav a {
         clear: both;
         font-size: 10px;
-        padding: 15px;
         float: left;
+        margin: 0;
     }
     .arrow {
-        size: 50%;
+        max-height: 50px;
     }
     #arrange {
         display: none;
     }
     .headerpic {
-        clear: both;
-        width: 100vw;
-        min-height: 200px;
-        margin-bottom: 80px;
-        font-size: 20px;
-        padding-top: 180px;
+        display:none;
     }
     .gallery {
         max-height: none;
